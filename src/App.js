@@ -20,8 +20,8 @@ function App() {
         {/* <SpinnerBox /> */}
         <Navbar />
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
+          <Route exact path="/" component={About} />
+          {/* <Route exact path="/about" component={About} /> */}
           <Route exact path="/search" component={SearchResults} />
           {/* <Route exact path="/service" component={Services} /> */}
           <Route exact path="/contact" component={Contact} />

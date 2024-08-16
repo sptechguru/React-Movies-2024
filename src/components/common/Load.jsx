@@ -8,7 +8,7 @@ export default class App extends React.Component {
     return (
       <div className="container mx-auto">
         <Loader
-          type="Hearts"
+          type="Rings"
           color="red"
           height={300}
           width={300}

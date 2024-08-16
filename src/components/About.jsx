@@ -8,16 +8,17 @@ const About = () => {
     <>
       <h1 className="text-4xl font-semibold text-gray-900 dark:text-black text-center py-2 my-3">
         {" "}
-        About Us{" "}
+        {/* About Us{" "} */}
       </h1>
 
       <Common
-        name="Welcome to "
-        word="I am Front End Developer With Knowledge of varrious Programing Language Like  JavaScript Typescript React js & Angular Framework And Python Django. To become a successful professional in a highly competitive technological world where performance is rewarded with new challenging responsibilities and to serve a reputed growth-oriented industry in the field of Development.        "
-        imgsrc={about2}
-        visit="/contact"
-        btname="Contact Now"
+        name="SANTOSH PAL"
+        word="I am a Full Stack Developer with expertise in various programming languages, including JavaScript, TypeScript, React.js, Angular, and Python Django. My goal is to excel as a professional in a highly competitive technological landscape, where outstanding performance is recognized with increasingly challenging responsibilities. I am eager to contribute to a reputable, growth-oriented organization in the field of development."
+        imgsrc={'https://avatars3.githubusercontent.com/u/58684635?s=460&u=f7af97454174f4f3a0c1b2db9b79cf1206b9a424&v=4'}
+        visit="https://sani.pythonanywhere.com/"
+        btname="Read More .."
       />
+      
     </>
   );
 };

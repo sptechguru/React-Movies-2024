@@ -1,5 +1,4 @@
 import React from "react";
-import home2 from "../images/home2.png";
 import Common from "./common/Common";
 
 const Home = () => {

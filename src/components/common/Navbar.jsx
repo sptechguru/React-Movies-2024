@@ -50,13 +50,13 @@ const Navbar = () => {
               <NavLink to="/">
                 <div className="flex flex-shrink-0 items-center">
                   <img className="h-10 w-auto" src="https://res.cloudinary.com/zoominfo-com/image/upload/w_140,h_140,c_fit/sptechusa.com" alt="Your Company" />
-                  <h1 className="text-white font-semibold lg:text-2xl md:text-1xl sm:xxl"> &nbsp; &nbsp;SPTECH  REACT</h1>
+                  <h1 className="text-white font-semibold lg:text-2xl md:text-1xl sm:xxl"> &nbsp; REACT</h1>
                 </div>
               </NavLink>
               <div className="hidden sm:ml-6 sm:block mx-auto">
                 <div className="flex space-x-4">
                   <NavLink className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium" to="/">Home <span className="sr-only">(current)</span></NavLink>
-                  <NavLink className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium" to="/about">About <span className="sr-only">(current)</span></NavLink>
+                  {/* <NavLink className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium" to="/about">About <span className="sr-only">(current)</span></NavLink> */}
                   {/* <NavLink className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium" to="/search">Search <span className="sr-only">(current)</span></NavLink> */}
                   {/* <NavLink className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium" to="/service">Prodcuts <span className="sr-only">(current)</span></NavLink> */}
                   <NavLink className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium" to="/contact">Contact <span className="sr-only">(current)</span></NavLink>
