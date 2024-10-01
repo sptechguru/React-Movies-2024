@@ -12,6 +12,10 @@ import View_Hoc from './components/HOC/View_Hoc';
 import All_hooks from './components/All-Hooks/All_hooks';
 import Footer from './components/common/Footer';
 import MoviesDetails from './components/Movies/Movies_details';
+import Employee from './pages/Employee';
+import Client from './pages/Client';
+import AddProject from './pages/AddProject';
+import AllProjectList from './pages/AllProjectList';
 
 function App() {
   return (
@@ -32,6 +36,13 @@ function App() {
           <Route path="/movies-details/:id" component={MoviesDetails} />
           <Route path="/search-details/:search" component={Movies_Search} />
           <Route exact path="/hoc" component={View_Hoc} />
+
+          {/* <Route exact path="/employee" component={Employee} /> */}
+          <Route exact path="/client" component={Client} />
+
+          <Route exact path="/create-project/:id" component={AddProject} />
+          <Route exact path="/projects-list" component={AllProjectList} />
+
           <Route exact path="/hooks" component={All_hooks} />
 
           <Redirect to="/" />

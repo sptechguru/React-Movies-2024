@@ -11,4 +11,10 @@
 
 
 
+export const EMPCRUD = {
+    apiBaseUrl:'https://freeapi.miniprojectideas.com/api/ClientStrive/',
+}
+
+
+
  
